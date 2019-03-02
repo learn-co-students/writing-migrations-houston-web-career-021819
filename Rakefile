@@ -14,6 +14,7 @@ task :environment do
   require_relative 'config/environment'
 end
 
+
 Rake::Task["db:drop"].clear
 
 namespace :db do
